@@ -11,7 +11,7 @@
     padding: 16px;
 }
 .intro_title{
-    font-size: 10vw;
+    font-size: 9vw;
     text-transform: uppercase;
     line-height: 1.5;
     font-weight: 800;
@@ -46,12 +46,12 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 150px;
-    height: 227px;
+    width: 187px;
+    height: 200px;
     overflow: hidden;
     filter: grayscale(100%);
     opacity: 0;
-    background: url(../../img/avatar.png);
+    background: url(../../img/avatar2.png);
 }
 .intro_text:hover .text{
     opacity: 0;

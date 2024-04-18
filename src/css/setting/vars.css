@@ -1,5 +1,5 @@
 :root {
-    --mainEng-font: "Orbitron";
+    --mainEng-font: "Montaga";
     /*메인영어 폰트  */
     --mainKor-font: "Noto Sans KR";
     /*메인한글 폰트  */
@@ -55,5 +55,5 @@
 body {
     color: var(--black);
     background-color: var(--mainBg-color);
-    overflow: hidden;
+    /* overflow: hidden; */
 }

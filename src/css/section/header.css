@@ -29,7 +29,7 @@
 
 .header_nav li {
     display: inline-block;
-    /* display: none; */
+ 
 }
 
 .header_nav li a {
@@ -103,14 +103,14 @@
         top: 0;
         text-align: right;
         transition: .35s;
-    
+        z-index: 100;
     }
 
     .header_nav ul {
         background-color: #ca8383;
         position: absolute;
         right: 0;
-        z-index: 100;
+    
         top: 64px;
         padding: 0 20px;
     }
