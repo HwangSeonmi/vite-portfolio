@@ -5,18 +5,19 @@
 
 .pf_title {
     position: sticky;
-    top: 70px;
     left: 0;
     width: 100%;
-    height: 5vw;
+    top: 70px;
     font-size: 4vw;
     line-height: 1.6;
     font-family: var(--mainKor-font);
     text-transform: uppercase;
     color: var(--black100);
     border-bottom: .4vw solid var(--black100);
-    margin-bottom: 100px;
+    margin-bottom: 16px;
+    text-indent: .25vw;
 }
+
 
 .pf_title em {
     font-size: 1.25rem;
@@ -36,22 +37,22 @@
 
 .pf_item.s1 {
     background-color: var(--subBg100);
-    top: 120px;
+    top: 190px;
 }
 
 .pf_item.s2 {
     background-color: var(--subBg200);
-    top: 160px;
+    top: 220px;
 }
 
 .pf_item.s3 {
     background-color: var(--subBg300);
-    top: 200px;
+    top: 250px;
 }
 
 .pf_item.s4 {
     background-color: var(--subBg400);
-    top: 240px;
+    top: 280px;
 }
 
 .pf_item .num {
@@ -114,15 +115,7 @@
 }
 
 /* ----------------------------- */
-.pf_title {
-    width: 100%;
-    margin-bottom: 10vw;
-    font-size: 30px;
-    height: auto;
-    top: 68px;
-    z-index: 9999;
-    background-color: var(--mainBg-color);
-}
+
 
 
 @media screen and (max-width:768px) {
@@ -162,11 +155,7 @@
         font-size: 26px;
     }
 
-    .pf_item .infor {
- 
-
-    }
-
+   
     .pf_item .info span {
         font-size: 10px;
         padding: 20px;

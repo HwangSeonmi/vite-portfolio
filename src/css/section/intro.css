@@ -46,12 +46,12 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 187px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     overflow: hidden;
     filter: grayscale(100%);
     opacity: 0;
-    background: url(../../img/avatar2.png);
+    background: url(../../img/avatar3.png);
 }
 .intro_text:hover .text{
     opacity: 0;
